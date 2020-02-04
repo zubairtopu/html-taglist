@@ -1,0 +1,52 @@
+.red {
+    color: red;
+}
+.min_table,
+td,
+th {
+    border: 1px solid;
+}
+center p {
+    text-align: center;
+}
+.table table {
+    border: 1px solid;
+    background-color: aqua;
+}
+.mix table th td {
+    border: 1px solid black;
+}
+.thead {
+    color: green;
+}
+.tbody {
+    color: blue;
+}
+.tfoot {
+    color: red;
+}
+header {
+    width: auto;
+    height: 70px;
+    background-color: rgb(0, 204, 160);
+}
+header h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 19px;
+    text-transform: uppercase;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
